@@ -1,0 +1,46 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Bye, Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "Age",
+         "patterns": ["How old are you?", "When is your birthday?"],
+         "responses": ["I'm technically a baby launched recently\nBut i m super good at helping others",
+                        "As I'm launched recently so i m quite young\nBut my i'm more intelligent than my age ;)"],
+         "context": [""]
+        },
+        {"tag": "Story_telling",
+         "patterns": ["Okay, tell me a story."],
+         "responses": ["Once upon a time, not so long ago, a dutiful  assistant was doing all it could to be helpful. It was best at non-functional story telling."],
+         "context": [""]
+        },
+        {"tag": "Joke",
+         "patterns": ["Tell me any joke.", "Crack a joke."],
+         "responses": ["Okay, here you go... \nWhat do you call a guy with a rubber toe??\nnAns- \"Roberto\"",
+            "Okay hope you like it\n\nWhat do you call a rose that wants to go to the moon?\nAns - \"Gulab ja moon\""],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["You can ask me anything", "I can tell you a Joke", "I can tell you the weather"],
+         "context": [""]
+        }
+        
+   ]
+}
